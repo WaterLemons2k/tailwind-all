@@ -1,0 +1,10 @@
+{
+  "name": "tailwind-all",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwind -o dist/all.css --no-autoprefixer"
+  },
+  "dependencies": {
+    "tailwindcss": "3.4.13"
+  }
+}
