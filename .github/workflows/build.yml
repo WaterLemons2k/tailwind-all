@@ -29,5 +29,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
           git add .
-          git commit -m 'build(tailwindcss): ${{ env.TAILWIND_VERSION }}'
-          git push || true
+          git commit -m 'build(tailwindcss): ${{ env.TAILWIND_VERSION }}' || true
+          git push
