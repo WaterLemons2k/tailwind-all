@@ -30,4 +30,4 @@ jobs:
 
           git add .
           git commit -m 'build(tailwindcss): ${{ env.TAILWIND_VERSION }}'
-          git push
+          git push || true
